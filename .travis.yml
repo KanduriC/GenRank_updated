@@ -1,0 +1,11 @@
+language: r
+bioc_required: true
+r_packages:
+  - matrixStats
+  - reshape2
+  - knitr
+  - testthat
+bioc_packages:
+  - survcomp
+warnings_are_errors: false
+sudo: required
